@@ -1,13 +1,14 @@
-import homeBanner from "../assets/homeBanner.png";
+// import homeBanner from "../assets/homeBanner.png";
 
 function Banner() {
   return (
     <div>
       {/* Banner Section */}
       <div
-        className="h-screen bg-cover bg-center bg-fixed text-white"
+        className="h-screen bg-cover bg-center bg-fixed text-white "
         style={{
-          backgroundImage: `url(${homeBanner})`, // Replace with your banner image URL
+          backgroundImage: `url(${"https://img.freepik.com/premium-photo/indian-happy-person-cheerful-business-sitting-laptop-men-office-males-worker-portrait-smile-businessman-technology-expertise_163305-209097.jpg"})`, // Replace with your banner image URL
+       
         }}
       >
         <div className="flex flex-col justify-between h-full gap-8 py-16 px-4 sm:px-8 md:py-24 md:px-12 lg:px-20 bg-cover bg-center">
