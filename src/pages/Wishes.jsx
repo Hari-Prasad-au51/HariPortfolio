@@ -18,8 +18,8 @@ const Wishes = () => {
       <div className="w-full max-w-5xl px-2">
         <JigsawPuzzle
           imageSrc="https://res.cloudinary.com/derexrykx/image/upload/v1745949196/hariti_qspn4l.jpg"
-          rows={3}
-          columns={3}
+          rows={4}
+          columns={4}
           onSolved={handlePuzzleSolved}
           className="w-full"
         />
