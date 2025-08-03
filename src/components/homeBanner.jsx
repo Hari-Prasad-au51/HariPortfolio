@@ -8,7 +8,6 @@ function Banner() {
         className="h-screen bg-cover bg-center bg-fixed text-white "
         style={{
           backgroundImage: `url(${"https://img.freepik.com/premium-photo/indian-happy-person-cheerful-business-sitting-laptop-men-office-males-worker-portrait-smile-businessman-technology-expertise_163305-209097.jpg"})`, // Replace with your banner image URL
-       
         }}
       >
         <div className="flex flex-col justify-between h-full gap-8 py-16 px-4 sm:px-8 md:py-24 md:px-12 lg:px-20 bg-cover bg-center">
@@ -17,20 +16,30 @@ function Banner() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               Labala Hariprasad
             </h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-1">
               React & Node.js Developer
+            </h2>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+              AI Engineer
             </h2>
           </div>
 
           {/* Bottom Section */}
           <div className="pb-32">
             <p className="font-mono text-base sm:text-lg md:text-xl lg:text-xl w-full sm:w-2/3 md:w-1/2">
-              I am a self-motivated MERN stack developer with a passion for building scalable
-              and efficient web applications. My leadership skills allow me to guide teams
-              in developing innovative solutions and maintaining best practices in coding.
-              I take accountability for every aspect of my work, ensuring timely delivery
-              and high-quality results. Driven by a commitment to continuous learning,
-              I stay updated with the latest technologies to enhance my development expertise.
+              I am a self-motivated MERN stack developer with a passion for
+              building scalable and efficient web applications. My leadership
+              skills allow me to guide teams in developing innovative solutions
+              and maintaining best practices in coding. I take accountability
+              for every aspect of my work, ensuring timely delivery and
+              high-quality results. Driven by a commitment to continuous
+              learning, I stay updated with the latest technologies to enhance
+              my development expertise. 
+              {/* I have also worked extensively in the AI
+              domain, building intelligent chatbots using LLMs, LangChain, AWS
+              Bedrock, and the ChatGPT API. This experience has enabled me to
+              create conversational AI systems that are context-aware, scalable,
+              and production-ready. */}
             </p>
           </div>
         </div>
