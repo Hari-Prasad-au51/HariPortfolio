@@ -1,4 +1,5 @@
 // import homeBanner from "../assets/homeBanner.png";
+import banner from "../assets/banner.jpeg";
 
 function Banner() {
   return (
@@ -8,7 +9,8 @@ function Banner() {
         className="h-screen bg-cover bg-center bg-fixed text-white "
         style={{
           backgroundImage: `url(${"https://img.freepik.com/premium-photo/indian-happy-person-cheerful-business-sitting-laptop-men-office-males-worker-portrait-smile-businessman-technology-expertise_163305-209097.jpg"})`, // Replace with your banner image URL
-        }}
+          // backgroundImage: `url(${banner})`,
+                 }}
       >
         <div className="flex flex-col justify-between h-full gap-8 py-16 px-4 sm:px-8 md:py-24 md:px-12 lg:px-20 bg-cover bg-center">
           {/* Top Section */}
@@ -34,7 +36,7 @@ function Banner() {
               for every aspect of my work, ensuring timely delivery and
               high-quality results. Driven by a commitment to continuous
               learning, I stay updated with the latest technologies to enhance
-              my development expertise. 
+              my development expertise.
               {/* I have also worked extensively in the AI
               domain, building intelligent chatbots using LLMs, LangChain, AWS
               Bedrock, and the ChatGPT API. This experience has enabled me to

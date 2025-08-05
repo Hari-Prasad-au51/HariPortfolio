@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import about from "../assets/about.jpeg"
 function About() {
   return (
     <section className="min-h-screen bg-primarycolor py-20 px-4 sm:px-8 md:px-12 lg:px-20">
@@ -28,7 +28,8 @@ function About() {
           >
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-secondarycolor shadow-lg">
               <img
-                src="https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg"
+                // src="https://img.freepik.com/free-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg"
+                src={about}
                 alt="Labala Hariprasad"
                 className="w-full h-full object-cover"
               />
